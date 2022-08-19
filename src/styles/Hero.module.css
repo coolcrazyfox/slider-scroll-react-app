@@ -29,7 +29,7 @@
     left: 249px;
     top: 0px;
     background-image: url("../assets/UnionUp.svg");
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     z-index: 3;
 
 }
