@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/slider-scroll-react-app/static/css/main.88f8af74.css",
-    "main.js": "/slider-scroll-react-app/static/js/main.bede53c9.js",
+    "main.js": "/slider-scroll-react-app/static/js/main.c1808497.js",
     "static/media/GroupAm.png": "/slider-scroll-react-app/static/media/GroupAm.285e19aae51917c41f21.png",
     "static/media/UnionFirstSecond.svg": "/slider-scroll-react-app/static/media/UnionFirstSecond.66f9e7c68d35e65e90e4.svg",
     "static/media/UnionSecondSecond.svg": "/slider-scroll-react-app/static/media/UnionSecondSecond.be6bb24a9c9847549638.svg",
@@ -13,10 +13,10 @@
     "index.html": "/slider-scroll-react-app/index.html",
     "static/media/Vector.svg": "/slider-scroll-react-app/static/media/Vector.4ef395ae2dcf54786547ee32f07a149e.svg",
     "main.88f8af74.css.map": "/slider-scroll-react-app/static/css/main.88f8af74.css.map",
-    "main.bede53c9.js.map": "/slider-scroll-react-app/static/js/main.bede53c9.js.map"
+    "main.c1808497.js.map": "/slider-scroll-react-app/static/js/main.c1808497.js.map"
   },
   "entrypoints": [
     "static/css/main.88f8af74.css",
-    "static/js/main.bede53c9.js"
+    "static/js/main.c1808497.js"
   ]
 }
