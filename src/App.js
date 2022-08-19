@@ -1,12 +1,17 @@
 import './App.css';
 import Hero from "./page/Hero";
 import SecondPage from "./page/SecondPage";
+import {Route, Routes} from "react-router-dom";
 
 function App() {
     return (
         <div className={'App'}>
-            <Hero/>
-            <SecondPage/>
+            <Routes>
+                <Route path={'/'} element={<Hero/>}/>
+                <Route path={'/secondpage'} element={<SecondPage/>}/>
+            </Routes>
+            {/*<Hero/>*/}
+            {/*<SecondPage/>*/}
         </div>
     );
 }
