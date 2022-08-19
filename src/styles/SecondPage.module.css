@@ -1,0 +1,304 @@
+.container {
+    display: flex;
+    position: relative;
+    min-width: 1440px;
+    height: 882px;
+    background: #8675BA;
+    color: #F5F5F5;
+
+}
+.main_title{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 67px;
+    line-height: 70px;
+    color: #F5F5F5;
+    /*border: 1px solid red;*/
+    z-index: 4;
+}
+.container .ball:nth-child(1){
+    position: absolute;
+    width: 331.65px;
+    height: 291.65px;
+    left: 0;
+    top: 0;
+    background-image: url("../assets/UnionFirstSecond.svg");
+    /*border: 1px solid red;*/
+    z-index: 3;
+
+}
+.container .ball:nth-child(2){
+    position: absolute;
+    width: 223.32px;
+    height: 202.32px;
+    left: 601px;
+    top: 34.87px;
+    background-image: url("../assets/UnionSecondSecond.svg");
+    border-radius: 80%;
+    transform: rotate(-20.99deg);
+    /*border: 1px solid red;*/
+    z-index: 3;
+}
+.container .ball:nth-child(3){
+    position: absolute;
+    width: 345.24px;
+    height: 340.24px;
+    right: 190px;
+    bottom: 7px;
+    background-image: url("../assets/UnionTherdSecond.svg");
+    /*background-blend-mode: normal, normal, normal, multiply;*/
+    box-shadow: 29px 54px 56px rgba(36, 52, 102, 0), inset 2.29395px 2.29395px 2.29395px rgba(84, 101, 157, 0);
+    backdrop-filter: blur(127px);
+    border-radius:50%;
+    transform: rotate(318deg);
+    /*border: 1px solid red;*/
+    z-index: 3;
+}
+.laptop_box{
+    position: absolute;
+    width: 1020px;
+    height: 579px;
+    top: 164px;
+    right: 258px;
+    background-image: url("../assets/GroupNew.png");
+    /*border: 1px solid red;*/
+    z-index: 2;
+}
+
+.box {
+    /*box-sizing: border-box;*/
+    position: absolute;
+    width: 668px;
+    height: 432px;
+    left: 100px;
+    top: 350px;
+    background: linear-gradient(0deg, rgba(0, 37, 23, 0.3), rgba(0, 37, 23, 0.3));
+    background-blend-mode: normal, multiply;
+    border: 0.5px solid rgba(64, 89, 80, 0.5);
+    box-shadow: inset 0.860527px 0.860527px 0.860527px rgba(53, 74, 66, 0.2);
+    backdrop-filter: blur(30px);
+    /*border: 1px solid red;*/
+    z-index: 2;
+
+}
+
+.text_title {
+    position: absolute;
+    width: 570px;
+    height: 80px;
+    right: 78px;
+    top: 20px;
+    /*border: 1px solid red;*/
+
+    /*font-family: 'Montserrat';*/
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 125% */
+    /* Neutral/Background */
+    color: #F5F5F5;
+
+}
+
+.text_header {
+    position: absolute;
+    width: 620px;
+    height: 88px;
+    right: 29px;
+    top: 116px;
+    /*padding-bottom: 10px;*/
+
+    /*font-family: 'Montserrat';*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /*border: 1px solid red;*/
+    /* or 144% */
+    /* Neutral/Background */
+
+    color: #F5F5F5;
+}
+
+.left_arrow_box {
+    /*box-sizing: border-box;*/
+
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 20px;
+    top: 214px;
+
+    opacity: 0.5;
+    /* Neutral/Background */
+
+    border: 1px solid #F5F5F5;
+}
+
+.arrow_link_img {
+    padding: 10px;
+}
+
+.right_arrow_box {
+    /*box-sizing: border-box;*/
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 84px;
+    top: 214px;
+
+    /* Neutral/Background */
+
+    border: 1px solid #F5F5F5;
+}
+
+.tab_container {
+    /*box-sizing: border-box;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: absolute;
+    width: 588px;
+    height: 94px;
+    left: 20px;
+    top: 282px;
+    list-style:none;
+    background: rgba(0, 37, 23, 0.2);
+    border: 1px solid rgba(226, 226, 226, 0.5);
+}
+
+.list_item{
+    border-right: 1px solid rgba(226, 226, 226, 0.5);
+    height: 94px;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /*border: 1px solid rgba(226, 226, 226, 0.5);*/
+
+}
+
+.title_tab_text {
+    /*position: absolute;*/
+    width: 146px;
+    height: 28px;
+    left: 40px;
+    top: 302px;
+    margin: 3px;
+
+    /*font-family: 'Montserrat';*/
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    /* Neutral/Background */
+    color: #F5F5F5;
+}
+
+.second_title_tab_text {
+    /*position: absolute;*/
+    width: 146px;
+    height: 18px;
+    left: 40px;
+    top: 338px;
+    margin: 3px;
+    /*font-family: 'Montserrat';*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+    /* Neutral/Background */
+    color: #F5F5F5;
+}
+
+.vertical_line {
+    /*position: absolute;*/
+    width: 93px;
+    height: 0px;
+    left: 206px;
+    top: 282px;
+    border: 1px solid rgba(226, 226, 226, 0.5);
+    transform: rotate(90deg);
+}
+
+.title_tab_text_second {
+    width: 146px;
+    height: 28px;
+    left: 226px;
+    top: 302px;
+    margin: 3px;
+    /*font-family: 'Montserrat';*/
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    /* Neutral/Background */
+    color: #F5F5F5;
+}
+
+.second_title_tab_text_two {
+    width: 155px;
+    height: 18px;
+    left: 226px;
+    top: 338px;
+    margin: 3px;
+    /*font-family: 'Montserrat';*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+    /* Neutral/Background */
+    color: #F5F5F5;
+}
+
+.title_tab_text_third {
+    width: 146px;
+    height: 28px;
+    left: 421px;
+    top: 302px;
+    margin: 3px;
+    /*font-family: 'Montserrat';*/
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    /* Neutral/Background */
+    color: #F5F5F5;
+
+}
+
+.second_title_tab_text_third {
+    width: 167px;
+    height: 18px;
+    left: 421px;
+    top: 338px;
+    margin: 3px;
+    /*font-family: 'Montserrat';*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+    /* Neutral/Background */
+    color: #F5F5F5;
+}
+
+.image_box {
+    width: 1017.27px;
+    height: 576.09px;
+    left: 337.66px;
+    top: 148px;
+    background: rgba(134, 117, 186, 0.34);
+    transform: rotate(-0.57deg);
+}
