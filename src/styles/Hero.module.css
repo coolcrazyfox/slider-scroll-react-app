@@ -22,7 +22,7 @@
     /*border: 1px solid red;*/
     z-index: 4;
 }
-.container .ball:hover , .ball:focus{
+.container .ball:hover {
     position: absolute;
     cursor: pointer;
     backdrop-filter: blur(5px);
