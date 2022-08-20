@@ -33,14 +33,16 @@
     /*background: rgba(255, 255, 255, 0.1);*/
     border-radius: 50%;
     animation: animate 10s
-    linear
+    /*linear*/
     infinite;
+    z-index: 1;
 
 }
 @keyframes animate {
     0%, 100% {
         /*transform: translateX(-40px);*/
         transform: scale(1.0, 1.0)
+
     }
     25%{
         transform: scale(0.25, 0.25)
