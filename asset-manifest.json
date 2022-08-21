@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/slider-scroll-react-app/static/css/main.8cf1a4a8.css",
-    "main.js": "/slider-scroll-react-app/static/js/main.2854d819.js",
+    "main.css": "/slider-scroll-react-app/static/css/main.93fd2d70.css",
+    "main.js": "/slider-scroll-react-app/static/js/main.e6bf765d.js",
     "static/media/GroupAm.png": "/slider-scroll-react-app/static/media/GroupAm.285e19aae51917c41f21.png",
     "static/media/UnionFirstSecond.svg": "/slider-scroll-react-app/static/media/UnionFirstSecond.66f9e7c68d35e65e90e4.svg",
     "static/media/UnionSecondSecond.svg": "/slider-scroll-react-app/static/media/UnionSecondSecond.be6bb24a9c9847549638.svg",
@@ -12,11 +12,11 @@
     "static/media/GroupNew.png": "/slider-scroll-react-app/static/media/GroupNew.690d1bfec69533d3366f.png",
     "index.html": "/slider-scroll-react-app/index.html",
     "static/media/Vector.svg": "/slider-scroll-react-app/static/media/Vector.4ef395ae2dcf54786547ee32f07a149e.svg",
-    "main.8cf1a4a8.css.map": "/slider-scroll-react-app/static/css/main.8cf1a4a8.css.map",
-    "main.2854d819.js.map": "/slider-scroll-react-app/static/js/main.2854d819.js.map"
+    "main.93fd2d70.css.map": "/slider-scroll-react-app/static/css/main.93fd2d70.css.map",
+    "main.e6bf765d.js.map": "/slider-scroll-react-app/static/js/main.e6bf765d.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cf1a4a8.css",
-    "static/js/main.2854d819.js"
+    "static/css/main.93fd2d70.css",
+    "static/js/main.e6bf765d.js"
   ]
 }
