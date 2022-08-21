@@ -21,6 +21,7 @@ const Hero = () => {
                     <div className={s.laptop_img_item}></div>
                 </div>
             </div>
+            <div className={s.shadow_laptop}></div>
             <div className={s.box}>
                 <div className={s.text_title}>Создание корпоративного сайта для холдинга «АМКОДОР»</div>
                 <div className={s.text_header}>Разработать и запустить корпоративный сайт для холдинга “АМКОДОР” для

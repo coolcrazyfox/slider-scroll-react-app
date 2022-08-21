@@ -75,9 +75,11 @@
     height: 13.7px;
     left: 349.36px;
     top: 746.29px;
+    /*border:1px solid red;*/
 
     background: #000000;
-    filter: blur(54.8177px);
+    filter: blur(25px);
+    /*z-index: 1;*/
 }
 
 .box {

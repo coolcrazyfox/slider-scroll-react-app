@@ -17,9 +17,10 @@ const SecondPage = () => {
             <div className={s.laptop_box}>
                 <div className={s.laptop_img}>
                     <div className={s.laptop_img_item}></div>
-                    <div className={s.shadow_laptop}></div>
+
                 </div>
             </div>
+            <div className={s.shadow_laptop}></div>
             <div className={s.box}>
                 <div className={s.text_title}>Создание маркетплейса для бизнеса по перепродаже одежды</div>
                 <div className={s.text_header}>Brands&Charity — благотворительная онлайн — платформа для перепродажи брендовых вещей, цель которой превратить ненужные одним людям вещи в полезный ресурс для других.
