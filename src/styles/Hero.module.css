@@ -32,9 +32,7 @@
     /*border-bottom: 1px solid rgba(255, 255, 255, 0.5);*/
     /*background: rgba(255, 255, 255, 0.1);*/
     border-radius: 50%;
-    animation: animate 12s
-    /*linear*/
-    infinite;
+    animation: animate 9s    linear    infinite;
     z-index: 1;
 
 }
@@ -66,6 +64,9 @@
     }
     80%{
         transform: scale(1.45, 1.45)
+    }
+    90%{
+        transform: scale(1.48, 1.48)
     }
     100%{
         transform: scale(1.5, 1.5)
