@@ -60,7 +60,7 @@
     top: 0px;
     background-image: url("../assets/UnionUp.svg");
     border-radius: 50%;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     z-index: 3;
 
 }
