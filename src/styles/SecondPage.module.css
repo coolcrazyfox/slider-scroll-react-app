@@ -69,6 +69,16 @@
     /*border: 1px solid red;*/
     z-index: 2;
 }
+.shadow_laptop{
+    position: absolute;
+    width: 587.15px;
+    height: 13.7px;
+    left: 349.36px;
+    top: 746.29px;
+
+    background: #000000;
+    filter: blur(54.8177px);
+}
 
 .box {
     /*box-sizing: border-box;*/
