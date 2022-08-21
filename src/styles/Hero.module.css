@@ -8,7 +8,8 @@
     color: #F5F5F5;
 
 }
-.main_title{
+
+.main_title {
     position: absolute;
     width: 400px;
     height: 60px;
@@ -22,69 +23,76 @@
     /*border: 1px solid red;*/
     z-index: 4;
 }
+
 .container .ball:hover {
     position: absolute;
     cursor: pointer;
-    backdrop-filter: blur(5px);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    /*border: 1px solid rgba(255, 255, 255, 0.5);*/
+    /*background: linear-gradient(131.29deg, rgba(225, 255, 244, 0.03) 1.1%, rgba(20, 54, 41, 0) 108.32%), radial-gradient(32.42% 32.42% at 46.83% 18.92%, rgba(255, 255, 255, 0.147) 0%, rgba(100, 117, 110, 0) 100%);*/
+
+    /*box-shadow: 8px 24px 60px rgba(21, 53, 30, 0.1), inset 2.29395px 2.29395px 2.29395px rgba(73, 100, 87, 0.05);*/
+    border: 1px solid rgba(255, 255, 255, 0.5);
     /*border-right: 1px solid rgba(255, 255, 255, 0.2);*/
     /*border-bottom: 1px solid rgba(255, 255, 255, 0.5);*/
     /*background: rgba(255, 255, 255, 0.1);*/
-    border-radius: 50%;
-    animation: animate 9s    linear    infinite;
+    /*backdrop-filter: blur(70px);*/
+    /*border-radius: 50%;*/
+    animation: animate 9s linear infinite;
     z-index: 1;
 
 }
+
 @keyframes animate {
-    0%{
+    0% {
         /*transform: translateX(-40px);*/
         transform: scale(1.0, 1.0)
     }
-    10%{
+    10% {
         transform: scale(1.1, 1.1)
     }
-    20%{
+    20% {
         transform: scale(1.15, 1.15)
     }
-    30%{
+    30% {
         transform: scale(1.2, 1.2)
     }
-    40%{
+    40% {
         transform: scale(1.25, 1.25)
     }
-    50%{
-         transform: scale(1.3, 1.3)
-     }
-    60%{
-          transform: scale(1.35, 1.35)
-      }
-    70%{
+    50% {
+        transform: scale(1.3, 1.3)
+    }
+    60% {
+        transform: scale(1.35, 1.35)
+    }
+    70% {
         transform: scale(1.4, 1.4)
     }
-    80%{
+    80% {
         transform: scale(1.45, 1.45)
     }
-    90%{
+    90% {
         transform: scale(1.48, 1.48)
     }
-    100%{
+    100% {
         transform: scale(1.5, 1.5)
     }
 
 }
-.container .ball:nth-child(1){
+
+.container .ball:nth-child(1) {
     position: absolute;
-    width: 440px;
+    width: 390px;
     height: 300px;
     left: 249px;
     top: 0px;
     background-image: url("../assets/UnionUp.svg");
-    /*border: 1px solid red;*/
+    border-radius: 50%;
+    border: 1px solid red;
     z-index: 3;
 
 }
-.container .ball:nth-child(2){
+
+.container .ball:nth-child(2) {
     position: absolute;
     width: 322px;
     height: 253px;
@@ -93,7 +101,8 @@
     background-image: url("../assets/Union.svg");
     /*border: 1px solid red;*/
 }
-.container .ball:nth-child(3){
+
+.container .ball:nth-child(3) {
     position: absolute;
     width: 384.66px;
     height: 330.66px;
@@ -103,7 +112,8 @@
     /*border: 1px solid red;*/
     z-index: 1;
 }
-.laptop_box{
+
+.laptop_box {
     position: absolute;
     width: 1020px;
     height: 579px;
@@ -212,12 +222,12 @@
     height: 94px;
     left: 20px;
     top: 282px;
-    list-style:none;
+    list-style: none;
     background: rgba(0, 37, 23, 0.2);
     border: 1px solid rgba(226, 226, 226, 0.5);
 }
 
-.list_item{
+.list_item {
     border-right: 1px solid rgba(226, 226, 226, 0.5);
     height: 94px;
     padding-top: 15px;
